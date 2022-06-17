@@ -7,7 +7,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: hsl(0, 100%, 74%);
-  background-image: url("../img/bg-intro-desktop.png");
+  background-image: url("./img/bg-intro-desktop.png");
   width: 100vw;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
@@ -109,7 +109,7 @@ input:valid {
 }
 
 /* input:invalid {
-  background: url("../img/icon-error.svg") no-repeat scroll 7px 7px;
+  background: url("./img/icon-error.svg") no-repeat scroll 7px 7px;
 padding-left:30px;
   } */
 
@@ -148,6 +148,7 @@ body {
   width: 375px;
   text-align: center;
   font-size: 1.2em;
+  background-image: url("./img/bg-intro-mobile.png");
 }
 
   main {
